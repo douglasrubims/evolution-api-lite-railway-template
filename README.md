@@ -1,6 +1,6 @@
 # Evolution API Lite Railway Template
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/j-0IcK?referralCode=9uHSFr&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
 Railway deployment template for [Evolution API Lite](https://github.com/EvolutionAPI/evolution-api-lite), a lightweight WhatsApp API built on Baileys.
 
