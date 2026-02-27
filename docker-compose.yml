@@ -3,7 +3,7 @@ version: "3.8"
 services:
   api:
     container_name: evolution_api_lite
-    image: evoapicloud/evolution-api-lite:latest
+    image: atendai/evolution-api-lite:latest
     restart: always
     depends_on:
       - redis

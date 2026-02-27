@@ -1,1 +1,1 @@
-FROM evoapicloud/evolution-api-lite:latest
+FROM atendai/evolution-api-lite:latest

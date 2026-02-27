@@ -125,5 +125,5 @@ Full documentation: [Evolution API Docs](https://doc.evolution-api.com).
 ## Maintenance
 
 - **Logs:** Railway dashboard → Evolution API Lite service → Deployments → View logs
-- **Updates:** Pull latest `evoapicloud/evolution-api-lite:latest` and redeploy
+- **Updates:** Pull latest `atendai/evolution-api-lite:latest` and redeploy
 - **Backup:** Export PostgreSQL data and volume contents if needed
