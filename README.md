@@ -6,7 +6,7 @@ Railway deployment template for [Evolution API Lite](https://github.com/Evolutio
 
 ## Overview
 
-This template enables one-click deployment of Evolution API Lite on Railway with PostgreSQL and Redis. Evolution API Lite is a streamlined version of Evolution API, focusing solely on connectivity without integrations (Typebot, Chatwoot, OpenAI, S3/Minio) and audio conversion features. It is optimized for microservice environments where performance and simplicity are key.
+This template enables one-click deployment of Evolution API Lite on Railway with PostgreSQL and Redis. Evolution API Lite is a streamlined version of Evolution API, focusing solely on connectivity without integrations (Typebot, Chatwoot, OpenAI, S3/Minio) and audio conversion features. **It does not include the manager dashboard** — administration must be done via REST API only. It is optimized for microservice environments where performance and simplicity are key.
 
 **Target users:** Developers and small businesses needing lightweight WhatsApp automation.
 
@@ -115,6 +115,8 @@ After deployment, convert the project to a template:
 4. Access the API at `http://localhost:8080`.
 
 ## API Usage
+
+Evolution API Lite has no web dashboard. All operations are performed via REST API:
 
 1. Create an instance: `POST /instance/create` with `apikey` header
 2. Connect WhatsApp: `GET /instance/connect/{instanceName}` to get QR code
